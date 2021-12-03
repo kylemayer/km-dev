@@ -4,7 +4,7 @@ function Header() {
   return (
     <div>
       <header>
-        <div className="pt-5 px-7 sm:container md:container mx-auto">
+        <div className="pt-5 px-7 sm:px-0 container mx-auto">
           <Image
             src="/unnamed.png"
             className="rounded-full"
