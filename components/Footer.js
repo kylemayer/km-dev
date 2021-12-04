@@ -13,11 +13,11 @@ function Footer() {
             <Link href={"#about"}>
               <p className="cursor-pointer hover:underline">About</p>
             </Link>
-            <Link href={"#contact"}>
-              <p className="cursor-pointer hover:underline">Contact</p>
-            </Link>
             <Link href={"#projects"}>
               <p className="cursor-pointer hover:underline">Projects</p>
+            </Link>
+            <Link href={"#contact"}>
+              <p className="cursor-pointer hover:underline">Contact</p>
             </Link>
           </div>
           <div className="flex justify-center space-x-8 md:ml-auto">
