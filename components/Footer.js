@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function Footer() {
   return (
     <div>
@@ -8,14 +10,32 @@ function Footer() {
             Copyright © 2021 - KM
           </div>
           <div className="flex justify-center space-x-8 whitespace-nowrap md:justify-self-start">
-            <p>About</p>
-            <p>Contact</p>
-            <p>Projects</p>
+            <Link href={"#about"}>
+              <p className="cursor-pointer hover:underline">About</p>
+            </Link>
+            <Link href={"#contact"}>
+              <p className="cursor-pointer hover:underline">Contact</p>
+            </Link>
+            <Link href={"#projects"}>
+              <p className="cursor-pointer hover:underline">Projects</p>
+            </Link>
           </div>
           <div className="flex justify-center space-x-8 md:ml-auto">
-            <p>GitHub</p>
-            <p>LinkedIn</p>
-            <p>Twitter</p>
+            <Link href={"https://github.com/kylemayer"}>
+              <a target="_blank" rel="noreferrer">
+                <p className="cursor-pointer hover:underline">GitHub</p>
+              </a>
+            </Link>
+            <Link href={"https://www.linkedin.com/in/kyle-mayer88/"}>
+              <a target="_blank" rel="noreferrer">
+                <p className="cursor-pointer hover:underline">LinkedIn</p>
+              </a>
+            </Link>
+            <Link href={"https://twitter.com/0xMayer"}>
+              <a target="_blank" rel="noreferrer">
+                <p className="cursor-pointer hover:underline">Twitter</p>
+              </a>
+            </Link>
           </div>
         </div>
       </footer>

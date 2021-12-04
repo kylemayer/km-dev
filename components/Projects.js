@@ -1,7 +1,13 @@
-function Work() {
+function Projects() {
   return (
-    <div>
-      <div className="mt-5  mb-6 px-7 sm:px-0 container mx-auto">
+    <div className="divide-y-[1px] divide-gray-600">
+      <span></span>
+      <div className="mt-5 mb-6 px-7 sm:px-0 container mx-auto">
+        <a id="projects">
+          <h1 className="text-lg font-semibold text-gray-100 py-3">
+            Recent Projects:
+          </h1>
+        </a>
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {/* Project 1 */}
           <div className="border-black shadow-sm hover:shadow-lg rounded-xl bg-gradient-to-r from-gray-800  via-gray-800  to-gray-900">
@@ -201,4 +207,4 @@ function Work() {
   );
 }
 
-export default Work;
+export default Projects;
