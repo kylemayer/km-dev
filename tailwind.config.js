@@ -6,7 +6,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      colors: {},
+      colors: {
+        "banner": "700F0A",
+      },
       fontFamily: {
         sans: ["IBM Plex Sans", ...fontFamily.sans],
       },

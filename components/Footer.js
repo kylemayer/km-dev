@@ -7,7 +7,7 @@ function Footer() {
         <span></span>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 grid-flow-row-dense px-8 py-3">
           <div className="flex justify-center items-center items-center md:col-span-2 lg:col-span-1 lg:col-start-2">
-            Copyright © 2021 - KM
+            © Kyle Mayer
           </div>
           <div className="flex justify-center space-x-8 whitespace-nowrap md:justify-self-start">
             <Link href={"#about"}>
