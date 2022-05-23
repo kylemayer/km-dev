@@ -15,7 +15,7 @@ function Nav() {
           <Link href={"#projects"} passHref>
             <p className="text-sm cursor-pointer hover:underline">Projects</p>
           </Link>
-          <Link href={"/resume-mayer.pdf"} passHref>
+          <Link href={"/kylemayer_resume.pdf"} passHref>
             <p className="text-sm cursor-pointer hover:underline">Resume</p>
           </Link>
           <Link href={"mailto:x@kylemayer.dev"} passHref>
